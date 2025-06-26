@@ -28,3 +28,5 @@
     - デプロイ：Docker Compose → Minikube 上で Helm Chart
     - CI/CD：GitHub Actions で Lint → テスト → イメージビルド→デプロイ
 
+ここではpythonを用いてコードを作成します
+
