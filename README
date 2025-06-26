@@ -19,3 +19,12 @@
 　　　　セキュリティ: JWTトークン、TLS/HTTPS必須
 　　　　可溶性: Docker/K8Sでの自動復旧
 
+技術スタック:
+
+- 
+    - フロント：Next.js + TypeScript
+    - バックエンド：Go（Gin/Gorilla） or Python（FastAPI）
+    - DB：PostgreSQL + Redis（リアルタイム通知用 Pub/Sub）
+    - デプロイ：Docker Compose → Minikube 上で Helm Chart
+    - CI/CD：GitHub Actions で Lint → テスト → イメージビルド→デプロイ
+
